@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
 export class BlogComponent {
   noticias: INoticia [] = [];
 
-  newNoticia: INoticia = {titulo: "", imagen: "", texto: "", fecha: ""};
+  nuevaNoticia: INoticia = {titulo: "", imagen: "", texto: "", fecha: ""};
 
   ngOnInit(): void {
   this.noticias = [
