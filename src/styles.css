@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 251, 236);
+   /* background-image: url("https://img.freepik.com/free-vector/cute-animal-paw-print-pattern-background-fauna-fun_1017-44714.jpg?t=st=1740057529~exp=1740061129~hmac=0ad6c9b1fa326f99ec1ab1a81becae20ff42f9db97c46405c4d12a977817350e&w=1480");
+    background-size: cover; /* o contain, dependiendo de cómo quieras que se ajuste la imagen */
+}
