@@ -1,0 +1,52 @@
+.Formulario {
+    display: flex; /* Convierte el formulario en un contenedor flexbox */
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra el contenido verticalmente */
+    height: 500px; /* Ajusta la altura al 100% de la ventana */
+    width: 100vw;
+}
+
+.Formulario > div {
+    margin-bottom: 10px; /* Espacio entre los elementos del formulario */
+    width: 80%;
+}
+
+.Formulario label {
+    display: block; /* Coloca las etiquetas encima de los inputs */
+    margin-bottom: 5px;
+}
+
+.Formulario input,
+.Formulario textarea {
+    width: 100%; /* Ajusta el ancho de los inputs y textarea */
+    padding: 8px;
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    border-radius: 9px;
+    border: 1px solid rgb(248, 180, 34);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.Formulario button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(248, 180, 34);
+    color: rgb(57, 57, 57);;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+h2{
+color: rgb(57, 57, 57);;
+}
+
+.noticias {
+    background-color: rgb(250, 206, 119);; /* Color de fondo rgb(248, 180, 34) */
+    min-height: calc(100vh - 400px); /* Altura mínima para ocupar todo el espacio restante */
+    padding: 20px; /* Espacio interno */
+    box-sizing: border-box; /* Incluir el padding en el ancho total */
+    display: flex;
+    justify-content: center;
+  }
+  
