@@ -1,0 +1,13 @@
+header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+   
+    background-color: rgb(250, 206, 119);
+    color: rgb(57, 57, 57);
+    border-bottom: 5px solid rgb(248, 180, 34);
+}
+
+h1 {
+    text-align: center;
+}
