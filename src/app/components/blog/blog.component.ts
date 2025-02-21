@@ -36,7 +36,7 @@ export class BlogComponent {
   getNoticia(){
     if (this.nuevaNoticia.titulo && this.nuevaNoticia.imagen && this.nuevaNoticia.texto && this.nuevaNoticia.fecha) {
       this.noticias.push({ ...this.nuevaNoticia });
-      this.nuevaNoticia = { titulo: "", imagen: "", texto: "", fecha: "" }; // Limpiar formulario
+      this.nuevaNoticia = { titulo: "", imagen: "", texto: "", fecha: "" }; 
     } else {
       alert("Por favor, completa todos los campos antes de publicar.");
     }
