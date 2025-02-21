@@ -1,30 +1,30 @@
-<div class="Formulario">
+<section class="Formulario" >
     <h2>Crea tu noticia</h2>
     <div>
         <label for="title">Título</label>
-        <input type="text" id="title" name="title" placeholder="Título">
+        <input type="text" id="title" name="title" placeholder="Título" [(ngModel)]="nuevaNoticia.titulo">
     </div>
     <div>
         <label for="image">Imagen</label>
-        <input type="url" id="image" name="image" placeholder="URL de la imagen">
+        <input type="url" id="image" name="image" placeholder="URL de la imagen" [(ngModel)]="nuevaNoticia.imagen">
     </div>
 
     <div>
-        <label for="text">Texto de la noticia</label>
-        <textarea id="text" name="text" placeholder="Texto de la noticia"></textarea>
+        <label for="text">Texto de la noticia </label>
+        <textarea id="text" name="text" placeholder="Texto de la noticia" [(ngModel)]="nuevaNoticia.texto"></textarea>
     </div>
 
     <div>
         <label for="fecha">Fecha</label>
-        <input type="text" id="fecha" name="fecha" placeholder="Fecha">
+        <input type="date" id="fecha" name="fecha" placeholder="Fecha" [(ngModel)]="nuevaNoticia.fecha">
     </div>
 
-    <button type="submit">Publicar</button>
-</div>
+    <button (click)="getNoticia()" type="submit">Publicar</button>
+</section>
 
 
 
-<div class="noticias" style="background-color: rgb(250, 206, 119); padding: 80px;">
+<section class="noticias" style="background-color: rgb(250, 206, 119); padding: 80px;">
     <h2>NOTICIAS</h2>
 
     <div class="nuevaNoticia">
@@ -38,7 +38,7 @@
           </div>
     
         }
-         </div>
+    </div>
 
     
-</div>
+ </section>
